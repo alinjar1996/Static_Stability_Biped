@@ -10,7 +10,9 @@ Guideline to use the codes:
 
 1. Equilibrium region codes are ‘eqregiontwocontactstair.m’ (Biped on stairs), ‘eqregiontwocontactinclplane.m’ (Biped on inclined plane) , ‘eqregiontwocontactcurved.m’ (Biped on curved surface), ‘eqregiontwocontactgripper.m’ (Gripper)
 respectively for various stance scenarios. They calculate the equilibrium regions of the illustrated examples of case (c).
-2. In the above-mentioned codes, the ratio of applied force and weight depends upon the line  F(z)=i*z*G/10; i = 0,1, 2.
+
+2. In the above-mentioned codes, the ratio of applied force and weight depends upon the line  F(z)=i*z*G/10; i = 1, 2. (The result for i = 0 is logically straightforward. Since only left friction cones are considered in the code(s), i=0 can not be determined by the same code(s).)
+
 
 3. Note the minimum and maximum values on the y-axis of the Matlab plots. They are listed as the equilibrium regions in Table 2  of the paper and Table 5.3 in the thesis.
 
